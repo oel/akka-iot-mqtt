@@ -1,0 +1,1314 @@
+New log file opened at Tue Apr 19 14:35:32 PDT 2016 by 28605@unknown28cfdadf9b6e.attlocal.net
+jvm 28605@unknown28cfdadf9b6e.attlocal.net
+jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.66-b17
+jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
+jvm arguments: [-Xms256m, -Xmx1024m, -XX:MetaspaceSize=64m, -XX:MaxMetaspaceSize=256m]
+Starting event engine
+Starting sbt command engine
+Waiting for sbt command engine
+Command engine arguments=List()
+Command engine baseDirectory=/Users/leo/apps/play/distributed-iot-poc
+Command engine initial remaining commands List(--initialize, onFailure load-failed, boot, server-send-ready-for-request, server-handle-next-server-request)
+> --initialize
+> initialize
+> onFailure load-failed
+> boot
+> reload
+[Loading] Scanning directory /Users/leo/apps/play/distributed-iot-poc/project/project
+[Loading] Found non-root projects 
+[Loading] Done in /Users/leo/apps/play/distributed-iot-poc/project/project, returning: ()
+deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.JUnitXmlReportPlugin)
+sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+[Loading] Done in /Users/leo/apps/play/distributed-iot-poc/project/project, returning: (distributed-iot-poc-build-build)
+Loading project definition from /Users/leo/apps/play/distributed-iot-poc/project/project
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@6716b11, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+[Loading] Scanning directory /Users/leo/apps/play/distributed-iot-poc/project
+[Loading] Found non-root projects 
+[Loading] Done in /Users/leo/apps/play/distributed-iot-poc/project, returning: ()
+deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.JUnitXmlReportPlugin)
+sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
+[Loading] Done in /Users/leo/apps/play/distributed-iot-poc/project, returning: (distributed-iot-poc-build)
+Loading project definition from /Users/leo/apps/play/distributed-iot-poc/project
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@6716b11, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	
+[Loading] Scanning directory /Users/leo/apps/play/distributed-iot-poc
+[Loading] Found non-root projects 
+[Loading] Done in /Users/leo/apps/play/distributed-iot-poc, returning: ()
+deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.BackgroundRunPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.InteractionServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SendEventServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SerializersPlugin)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.SerializersPlugin,sbt.plugins.SendEventServicePlugin,sbt.plugins.InteractionServicePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.BackgroundRunPlugin,sbt.plugins.JUnitXmlReportPlugin)
+sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin)
+[Loading] Done in /Users/leo/apps/play/distributed-iot-poc, returning: (distributed-iot-poc)
+Set current project to akka-distributed-iot-poc (in build file:/Users/leo/apps/play/distributed-iot-poc/)
+Reapplying settings...
+Set current project to akka-distributed-iot-poc (in build file:/Users/leo/apps/play/distributed-iot-poc/)
+> iflast shell
+> server-send-ready-for-request
+> server-handle-next-server-request
+> {file:/Users/leo/apps/play/distributed-iot-poc/}distributed-iot-poc/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@16cf2ef, check cycles: false
+Read from stdout: Updating {file:/Users/leo/apps/play/distributed-iot-poc/}distributed-iot-poc...
+Updating {file:/Users/leo/apps/play/distributed-iot-poc/}distributed-iot-poc...
+Other repositories:
+Default repositories:
+Using inline dependencies specified in Scala.
+:: resolving dependencies :: akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1
+	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
+	validate = true
+	refresh = false
+resolving dependencies for configuration 'compile'
+== resolving dependencies for akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1 [compile]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
+Read from stdout: Resolving org.scala-lang#scala-library;2.11.7 ...
+Resolving org.scala-lang#scala-library;2.11.7 ...
+sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4a3ec317
+sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.7
+	found org.scala-lang#scala-library;2.11.7 in sbt-chain
+	[2.11.7] org.scala-lang#scala-library;2.11.7
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.scala-lang#scala-library;2.11.7 [compile->runtime]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.scala-lang#scala-library;2.11.7 [compile->compile]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.scala-lang#scala-library;2.11.7 [compile->master]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-cluster_2.11;2.4.0 [compile->default(compile)]
+Read from stdout: Resolving com.typesafe.akka#akka-cluster_2.11;2.4.0 ...
+Resolving com.typesafe.akka#akka-cluster_2.11;2.4.0 ...
+sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-cluster_2.11;2.4.0 {compile=[default(compile)]}
+sbt-chain: module revision found in cache: com.typesafe.akka#akka-cluster_2.11;2.4.0
+	found com.typesafe.akka#akka-cluster_2.11;2.4.0 in sbt-chain
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-cluster_2.11;2.4.0 [compile->runtime]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-cluster_2.11;2.4.0 [compile->compile]
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile]
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->com.typesafe.akka#akka-remote_2.11;2.4.0 [compile->master(compile)]
+Read from stdout: Resolving com.typesafe.akka#akka-remote_2.11;2.4.0 ...
+Resolving com.typesafe.akka#akka-remote_2.11;2.4.0 ...
+sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-remote_2.11;2.4.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+sbt-chain: module revision found in cache: com.typesafe.akka#akka-remote_2.11;2.4.0
+	found com.typesafe.akka#akka-remote_2.11;2.4.0 in sbt-chain
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->com.typesafe.akka#akka-remote_2.11;2.4.0 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->master(compile)]
+Read from stdout: Resolving com.typesafe.akka#akka-actor_2.11;2.4.0 ...
+Resolving com.typesafe.akka#akka-actor_2.11;2.4.0 ...
+sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.11;2.4.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+sbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.11;2.4.0
+	found com.typesafe.akka#akka-actor_2.11;2.4.0 in sbt-chain
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->com.typesafe#config;1.3.0 [compile->master(compile)]
+Read from stdout: Resolving com.typesafe#config;1.3.0 ...
+Resolving com.typesafe#config;1.3.0 ...
+sbt-chain: Checking cache for: dependency: com.typesafe#config;1.3.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+sbt-chain: module revision found in cache: com.typesafe#config;1.3.0
+	found com.typesafe#config;1.3.0 in sbt-chain
+== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->com.typesafe#config;1.3.0 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [compile->master(compile)]
+Read from stdout: Resolving com.typesafe.akka#akka-protobuf_2.11;2.4.0 ...
+Resolving com.typesafe.akka#akka-protobuf_2.11;2.4.0 ...
+sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-protobuf_2.11;2.4.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+sbt-chain: module revision found in cache: com.typesafe.akka#akka-protobuf_2.11;2.4.0
+	found com.typesafe.akka#akka-protobuf_2.11;2.4.0 in sbt-chain
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-protobuf_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-protobuf_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->io.netty#netty;3.10.3.Final [compile->master(compile)]
+Read from stdout: Resolving io.netty#netty;3.10.3.Final ...
+Resolving io.netty#netty;3.10.3.Final ...
+sbt-chain: Checking cache for: dependency: io.netty#netty;3.10.3.Final {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+sbt-chain: module revision found in cache: io.netty#netty;3.10.3.Final
+	found io.netty#netty;3.10.3.Final in sbt-chain
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->io.netty#netty;3.10.3.Final [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master(compile)]
+Read from stdout: Resolving org.uncommons.maths#uncommons-maths;1.2.2a ...
+Resolving org.uncommons.maths#uncommons-maths;1.2.2a ...
+sbt-chain: Checking cache for: dependency: org.uncommons.maths#uncommons-maths;1.2.2a {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+sbt-chain: module revision found in cache: org.uncommons.maths#uncommons-maths;1.2.2a
+	found org.uncommons.maths#uncommons-maths;1.2.2a in sbt-chain
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile(*)]
+excluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
+excluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->com.typesafe.akka#akka-remote_2.11;2.4.0 [compile->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->com.typesafe.akka#akka-remote_2.11;2.4.0 [compile->compile]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->com.typesafe#config;1.3.0 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->com.typesafe#config;1.3.0 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-protobuf_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-protobuf_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->io.netty#netty;3.10.3.Final [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->io.netty#netty;3.10.3.Final [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->compile]
+excluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime
+excluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->com.typesafe.akka#akka-remote_2.11;2.4.0 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->com.typesafe.akka#akka-remote_2.11;2.4.0 [runtime->compile]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-cluster_2.11;2.4.0 [compile->master]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-cluster-tools_2.11;2.4.0 [compile->default(compile)]
+Read from stdout: Resolving com.typesafe.akka#akka-cluster-tools_2.11;2.4.0 ...
+Resolving com.typesafe.akka#akka-cluster-tools_2.11;2.4.0 ...
+sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-cluster-tools_2.11;2.4.0 {compile=[default(compile)]}
+sbt-chain: module revision found in cache: com.typesafe.akka#akka-cluster-tools_2.11;2.4.0
+	found com.typesafe.akka#akka-cluster-tools_2.11;2.4.0 in sbt-chain
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-cluster-tools_2.11;2.4.0 [compile->runtime]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-cluster-tools_2.11;2.4.0 [compile->compile]
+== resolving dependencies com.typesafe.akka#akka-cluster-tools_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-cluster-tools_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-cluster-tools_2.11;2.4.0->com.typesafe.akka#akka-cluster_2.11;2.4.0 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-cluster-tools_2.11;2.4.0->com.typesafe.akka#akka-cluster_2.11;2.4.0 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-cluster-tools_2.11;2.4.0->com.typesafe.akka#akka-cluster_2.11;2.4.0 [compile->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-cluster-tools_2.11;2.4.0->com.typesafe.akka#akka-cluster_2.11;2.4.0 [compile->compile]
+== resolving dependencies com.typesafe.akka#akka-cluster-tools_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-cluster-tools_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-cluster-tools_2.11;2.4.0->com.typesafe.akka#akka-cluster_2.11;2.4.0 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-cluster-tools_2.11;2.4.0->com.typesafe.akka#akka-cluster_2.11;2.4.0 [runtime->compile]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-cluster-tools_2.11;2.4.0 [compile->master]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-persistence_2.11;2.4.0 [compile->default(compile)]
+Read from stdout: Resolving com.typesafe.akka#akka-persistence_2.11;2.4.0 ...
+Resolving com.typesafe.akka#akka-persistence_2.11;2.4.0 ...
+sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-persistence_2.11;2.4.0 {compile=[default(compile)]}
+sbt-chain: module revision found in cache: com.typesafe.akka#akka-persistence_2.11;2.4.0
+	found com.typesafe.akka#akka-persistence_2.11;2.4.0 in sbt-chain
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-persistence_2.11;2.4.0 [compile->runtime]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-persistence_2.11;2.4.0 [compile->compile]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [runtime->compile]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-persistence_2.11;2.4.0 [compile->master]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.iq80.leveldb#leveldb;0.7 [compile->default(compile)]
+Read from stdout: Resolving org.iq80.leveldb#leveldb;0.7 ...
+Resolving org.iq80.leveldb#leveldb;0.7 ...
+sbt-chain: Checking cache for: dependency: org.iq80.leveldb#leveldb;0.7 {compile=[default(compile)]}
+sbt-chain: module revision found in cache: org.iq80.leveldb#leveldb;0.7
+	found org.iq80.leveldb#leveldb;0.7 in sbt-chain
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.iq80.leveldb#leveldb;0.7 [compile->runtime]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.iq80.leveldb#leveldb;0.7 [compile->compile]
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [compile->master(compile)]
+Read from stdout: Resolving org.iq80.leveldb#leveldb-api;0.7 ...
+Resolving org.iq80.leveldb#leveldb-api;0.7 ...
+sbt-chain: Checking cache for: dependency: org.iq80.leveldb#leveldb-api;0.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+sbt-chain: module revision found in cache: org.iq80.leveldb#leveldb-api;0.7
+	found org.iq80.leveldb#leveldb-api;0.7 in sbt-chain
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [compile->compile(*)]
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [compile->runtime(*)]
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [compile->compile]
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [compile->master(compile)]
+Read from stdout: Resolving com.google.guava#guava;16.0.1 ...
+Resolving com.google.guava#guava;16.0.1 ...
+sbt-chain: Checking cache for: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+sbt-chain: module revision found in cache: com.google.guava#guava;16.0.1
+	found com.google.guava#guava;16.0.1 in sbt-chain
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [compile->compile(*)]
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [compile->runtime(*)]
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [compile->compile]
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [runtime->runtime(*)]
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [runtime->compile]
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [runtime->runtime(*)]
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [runtime->compile]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.iq80.leveldb#leveldb;0.7 [compile->master]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.fusesource.leveldbjni#leveldbjni-all;1.8 [compile->default(compile)]
+Read from stdout: Resolving org.fusesource.leveldbjni#leveldbjni-all;1.8 ...
+Resolving org.fusesource.leveldbjni#leveldbjni-all;1.8 ...
+sbt-chain: Checking cache for: dependency: org.fusesource.leveldbjni#leveldbjni-all;1.8 {compile=[default(compile)]}
+sbt-chain: module revision found in cache: org.fusesource.leveldbjni#leveldbjni-all;1.8
+	found org.fusesource.leveldbjni#leveldbjni-all;1.8 in sbt-chain
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.fusesource.leveldbjni#leveldbjni-all;1.8 [compile->runtime]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.fusesource.leveldbjni#leveldbjni-all;1.8 [compile->compile]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.fusesource.leveldbjni#leveldbjni-all;1.8 [compile->master]
+resolving dependencies for configuration 'runtime'
+== resolving dependencies for akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1 [runtime]
+== resolving dependencies for akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1 [compile]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.scala-lang#scala-library;2.11.7 [compile->runtime]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.scala-lang#scala-library;2.11.7 [compile->compile]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.scala-lang#scala-library;2.11.7 [compile->master]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-cluster_2.11;2.4.0 [compile->default(compile)]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-cluster_2.11;2.4.0 [compile->runtime]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-cluster_2.11;2.4.0 [compile->compile]
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->com.typesafe.akka#akka-remote_2.11;2.4.0 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->com.typesafe.akka#akka-remote_2.11;2.4.0 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->com.typesafe#config;1.3.0 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->com.typesafe#config;1.3.0 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-protobuf_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-protobuf_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->io.netty#netty;3.10.3.Final [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->io.netty#netty;3.10.3.Final [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile(*)]
+excluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
+excluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->com.typesafe.akka#akka-remote_2.11;2.4.0 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->com.typesafe.akka#akka-remote_2.11;2.4.0 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->com.typesafe#config;1.3.0 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->com.typesafe#config;1.3.0 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-protobuf_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-protobuf_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->io.netty#netty;3.10.3.Final [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->io.netty#netty;3.10.3.Final [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->compile]
+excluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime
+excluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-cluster_2.11;2.4.0 [compile->master]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-cluster-tools_2.11;2.4.0 [compile->default(compile)]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-cluster-tools_2.11;2.4.0 [compile->runtime]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-cluster-tools_2.11;2.4.0 [compile->compile]
+== resolving dependencies com.typesafe.akka#akka-cluster-tools_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-cluster-tools_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-cluster-tools_2.11;2.4.0->com.typesafe.akka#akka-cluster_2.11;2.4.0 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-cluster-tools_2.11;2.4.0->com.typesafe.akka#akka-cluster_2.11;2.4.0 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-cluster-tools_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-cluster-tools_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-cluster-tools_2.11;2.4.0->com.typesafe.akka#akka-cluster_2.11;2.4.0 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-cluster-tools_2.11;2.4.0->com.typesafe.akka#akka-cluster_2.11;2.4.0 [runtime->compile]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-cluster-tools_2.11;2.4.0 [compile->master]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-persistence_2.11;2.4.0 [compile->default(compile)]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-persistence_2.11;2.4.0 [compile->runtime]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-persistence_2.11;2.4.0 [compile->compile]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [runtime->compile]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-persistence_2.11;2.4.0 [compile->master]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.iq80.leveldb#leveldb;0.7 [compile->default(compile)]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.iq80.leveldb#leveldb;0.7 [compile->runtime]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.iq80.leveldb#leveldb;0.7 [compile->compile]
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [compile->master(compile)]
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [compile->compile(*)]
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [compile->master(compile)]
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [compile->compile(*)]
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [runtime->runtime(*)]
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [runtime->compile]
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [runtime->runtime(*)]
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [runtime->compile]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.iq80.leveldb#leveldb;0.7 [compile->master]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.fusesource.leveldbjni#leveldbjni-all;1.8 [compile->default(compile)]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.fusesource.leveldbjni#leveldbjni-all;1.8 [compile->runtime]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.fusesource.leveldbjni#leveldbjni-all;1.8 [compile->compile]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.fusesource.leveldbjni#leveldbjni-all;1.8 [compile->master]
+resolving dependencies for configuration 'test'
+== resolving dependencies for akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1 [test]
+== resolving dependencies for akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1 [runtime]
+== resolving dependencies for akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1 [compile]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.scala-lang#scala-library;2.11.7 [compile->runtime]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.scala-lang#scala-library;2.11.7 [compile->compile]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.scala-lang#scala-library;2.11.7 [compile->master]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-cluster_2.11;2.4.0 [compile->default(compile)]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-cluster_2.11;2.4.0 [compile->runtime]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-cluster_2.11;2.4.0 [compile->compile]
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->com.typesafe.akka#akka-remote_2.11;2.4.0 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->com.typesafe.akka#akka-remote_2.11;2.4.0 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->com.typesafe#config;1.3.0 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->com.typesafe#config;1.3.0 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-protobuf_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-protobuf_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->io.netty#netty;3.10.3.Final [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->io.netty#netty;3.10.3.Final [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile(*)]
+excluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
+excluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->com.typesafe.akka#akka-remote_2.11;2.4.0 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->com.typesafe.akka#akka-remote_2.11;2.4.0 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->com.typesafe#config;1.3.0 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->com.typesafe#config;1.3.0 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-protobuf_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-protobuf_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->io.netty#netty;3.10.3.Final [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->io.netty#netty;3.10.3.Final [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->compile]
+excluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime
+excluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-cluster_2.11;2.4.0 [compile->master]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-cluster-tools_2.11;2.4.0 [compile->default(compile)]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-cluster-tools_2.11;2.4.0 [compile->runtime]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-cluster-tools_2.11;2.4.0 [compile->compile]
+== resolving dependencies com.typesafe.akka#akka-cluster-tools_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-cluster-tools_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-cluster-tools_2.11;2.4.0->com.typesafe.akka#akka-cluster_2.11;2.4.0 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-cluster-tools_2.11;2.4.0->com.typesafe.akka#akka-cluster_2.11;2.4.0 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-cluster-tools_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-cluster-tools_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-cluster-tools_2.11;2.4.0->com.typesafe.akka#akka-cluster_2.11;2.4.0 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-cluster-tools_2.11;2.4.0->com.typesafe.akka#akka-cluster_2.11;2.4.0 [runtime->compile]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-cluster-tools_2.11;2.4.0 [compile->master]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-persistence_2.11;2.4.0 [compile->default(compile)]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-persistence_2.11;2.4.0 [compile->runtime]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-persistence_2.11;2.4.0 [compile->compile]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [runtime->compile]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-persistence_2.11;2.4.0 [compile->master]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.iq80.leveldb#leveldb;0.7 [compile->default(compile)]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.iq80.leveldb#leveldb;0.7 [compile->runtime]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.iq80.leveldb#leveldb;0.7 [compile->compile]
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [compile->master(compile)]
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [compile->compile(*)]
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [compile->master(compile)]
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [compile->compile(*)]
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [runtime->runtime(*)]
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [runtime->compile]
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [runtime->runtime(*)]
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [runtime->compile]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.iq80.leveldb#leveldb;0.7 [compile->master]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.fusesource.leveldbjni#leveldbjni-all;1.8 [compile->default(compile)]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.fusesource.leveldbjni#leveldbjni-all;1.8 [compile->runtime]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.fusesource.leveldbjni#leveldbjni-all;1.8 [compile->compile]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.fusesource.leveldbjni#leveldbjni-all;1.8 [compile->master]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-testkit_2.11;2.4.0 [test->default(compile)]
+Read from stdout: Resolving com.typesafe.akka#akka-testkit_2.11;2.4.0 ...
+Resolving com.typesafe.akka#akka-testkit_2.11;2.4.0 ...
+sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-testkit_2.11;2.4.0 {test=[default(compile)]}
+sbt-chain: module revision found in cache: com.typesafe.akka#akka-testkit_2.11;2.4.0
+	found com.typesafe.akka#akka-testkit_2.11;2.4.0 in sbt-chain
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-testkit_2.11;2.4.0 [test->runtime]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-testkit_2.11;2.4.0 [test->compile]
+== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [runtime->compile]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-testkit_2.11;2.4.0 [test->master]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.scalatest#scalatest_2.11;2.2.4 [test->default(compile)]
+Read from stdout: Resolving org.scalatest#scalatest_2.11;2.2.4 ...
+Resolving org.scalatest#scalatest_2.11;2.2.4 ...
+sbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.11;2.2.4 {test=[default(compile)]}
+sbt-chain: module revision found in cache: org.scalatest#scalatest_2.11;2.2.4
+	found org.scalatest#scalatest_2.11;2.2.4 in sbt-chain
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.scalatest#scalatest_2.11;2.2.4 [test->runtime]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.scalatest#scalatest_2.11;2.2.4 [test->compile]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->master(compile)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->compile(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->master(compile)]
+Read from stdout: Resolving org.scala-lang#scala-reflect;2.11.2 ...
+Resolving org.scala-lang#scala-reflect;2.11.2 ...
+sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.2
+	found org.scala-lang#scala-reflect;2.11.2 in sbt-chain
+	[2.11.2] org.scala-lang#scala-reflect;2.11.2
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->compile(*)]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master(compile)]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->runtime(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->compile]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(compile)]
+Read from stdout: Resolving org.scala-lang.modules#scala-xml_2.11;1.0.2 ...
+Resolving org.scala-lang.modules#scala-xml_2.11;1.0.2 ...
+sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.2
+	found org.scala-lang.modules#scala-xml_2.11;1.0.2 in sbt-chain
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(compile)]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->runtime(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [runtime->runtime(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [runtime->compile]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.scalatest#scalatest_2.11;2.2.4 [test->master]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->commons-io#commons-io;2.4 [test->default(compile)]
+Read from stdout: Resolving commons-io#commons-io;2.4 ...
+Resolving commons-io#commons-io;2.4 ...
+sbt-chain: Checking cache for: dependency: commons-io#commons-io;2.4 {test=[default(compile)]}
+sbt-chain: module revision found in cache: commons-io#commons-io;2.4
+	found commons-io#commons-io;2.4 in sbt-chain
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->commons-io#commons-io;2.4 [test->runtime]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->commons-io#commons-io;2.4 [test->compile]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->commons-io#commons-io;2.4 [test->master]
+resolving dependencies for configuration 'provided'
+== resolving dependencies for akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1 [provided]
+resolving dependencies for configuration 'optional'
+== resolving dependencies for akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1 [optional]
+resolving dependencies for configuration 'compile-internal'
+== resolving dependencies for akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1 [compile-internal]
+== resolving dependencies for akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1 [compile]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.scala-lang#scala-library;2.11.7 [compile->runtime]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.scala-lang#scala-library;2.11.7 [compile->compile]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.scala-lang#scala-library;2.11.7 [compile->master]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-cluster_2.11;2.4.0 [compile->default(compile)]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-cluster_2.11;2.4.0 [compile->runtime]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-cluster_2.11;2.4.0 [compile->compile]
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->com.typesafe.akka#akka-remote_2.11;2.4.0 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->com.typesafe.akka#akka-remote_2.11;2.4.0 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->com.typesafe#config;1.3.0 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->com.typesafe#config;1.3.0 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-protobuf_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-protobuf_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->io.netty#netty;3.10.3.Final [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->io.netty#netty;3.10.3.Final [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile(*)]
+excluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
+excluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->com.typesafe.akka#akka-remote_2.11;2.4.0 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->com.typesafe.akka#akka-remote_2.11;2.4.0 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->com.typesafe#config;1.3.0 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->com.typesafe#config;1.3.0 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-protobuf_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-protobuf_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->io.netty#netty;3.10.3.Final [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->io.netty#netty;3.10.3.Final [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->compile]
+excluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime
+excluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-cluster_2.11;2.4.0 [compile->master]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-cluster-tools_2.11;2.4.0 [compile->default(compile)]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-cluster-tools_2.11;2.4.0 [compile->runtime]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-cluster-tools_2.11;2.4.0 [compile->compile]
+== resolving dependencies com.typesafe.akka#akka-cluster-tools_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-cluster-tools_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-cluster-tools_2.11;2.4.0->com.typesafe.akka#akka-cluster_2.11;2.4.0 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-cluster-tools_2.11;2.4.0->com.typesafe.akka#akka-cluster_2.11;2.4.0 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-cluster-tools_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-cluster-tools_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-cluster-tools_2.11;2.4.0->com.typesafe.akka#akka-cluster_2.11;2.4.0 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-cluster-tools_2.11;2.4.0->com.typesafe.akka#akka-cluster_2.11;2.4.0 [runtime->compile]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-cluster-tools_2.11;2.4.0 [compile->master]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-persistence_2.11;2.4.0 [compile->default(compile)]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-persistence_2.11;2.4.0 [compile->runtime]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-persistence_2.11;2.4.0 [compile->compile]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [runtime->compile]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-persistence_2.11;2.4.0 [compile->master]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.iq80.leveldb#leveldb;0.7 [compile->default(compile)]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.iq80.leveldb#leveldb;0.7 [compile->runtime]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.iq80.leveldb#leveldb;0.7 [compile->compile]
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [compile->master(compile)]
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [compile->compile(*)]
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [compile->master(compile)]
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [compile->compile(*)]
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [runtime->runtime(*)]
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [runtime->compile]
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [runtime->runtime(*)]
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [runtime->compile]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.iq80.leveldb#leveldb;0.7 [compile->master]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.fusesource.leveldbjni#leveldbjni-all;1.8 [compile->default(compile)]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.fusesource.leveldbjni#leveldbjni-all;1.8 [compile->runtime]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.fusesource.leveldbjni#leveldbjni-all;1.8 [compile->compile]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.fusesource.leveldbjni#leveldbjni-all;1.8 [compile->master]
+== resolving dependencies for akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1 [optional]
+== resolving dependencies for akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1 [provided]
+resolving dependencies for configuration 'runtime-internal'
+== resolving dependencies for akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1 [runtime-internal]
+== resolving dependencies for akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1 [runtime]
+== resolving dependencies for akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1 [compile]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.scala-lang#scala-library;2.11.7 [compile->runtime]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.scala-lang#scala-library;2.11.7 [compile->compile]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.scala-lang#scala-library;2.11.7 [compile->master]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-cluster_2.11;2.4.0 [compile->default(compile)]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-cluster_2.11;2.4.0 [compile->runtime]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-cluster_2.11;2.4.0 [compile->compile]
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->com.typesafe.akka#akka-remote_2.11;2.4.0 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->com.typesafe.akka#akka-remote_2.11;2.4.0 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->com.typesafe#config;1.3.0 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->com.typesafe#config;1.3.0 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-protobuf_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-protobuf_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->io.netty#netty;3.10.3.Final [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->io.netty#netty;3.10.3.Final [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile(*)]
+excluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
+excluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->com.typesafe.akka#akka-remote_2.11;2.4.0 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->com.typesafe.akka#akka-remote_2.11;2.4.0 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->com.typesafe#config;1.3.0 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->com.typesafe#config;1.3.0 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-protobuf_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-protobuf_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->io.netty#netty;3.10.3.Final [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->io.netty#netty;3.10.3.Final [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->compile]
+excluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime
+excluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-cluster_2.11;2.4.0 [compile->master]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-cluster-tools_2.11;2.4.0 [compile->default(compile)]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-cluster-tools_2.11;2.4.0 [compile->runtime]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-cluster-tools_2.11;2.4.0 [compile->compile]
+== resolving dependencies com.typesafe.akka#akka-cluster-tools_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-cluster-tools_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-cluster-tools_2.11;2.4.0->com.typesafe.akka#akka-cluster_2.11;2.4.0 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-cluster-tools_2.11;2.4.0->com.typesafe.akka#akka-cluster_2.11;2.4.0 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-cluster-tools_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-cluster-tools_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-cluster-tools_2.11;2.4.0->com.typesafe.akka#akka-cluster_2.11;2.4.0 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-cluster-tools_2.11;2.4.0->com.typesafe.akka#akka-cluster_2.11;2.4.0 [runtime->compile]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-cluster-tools_2.11;2.4.0 [compile->master]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-persistence_2.11;2.4.0 [compile->default(compile)]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-persistence_2.11;2.4.0 [compile->runtime]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-persistence_2.11;2.4.0 [compile->compile]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [runtime->compile]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-persistence_2.11;2.4.0 [compile->master]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.iq80.leveldb#leveldb;0.7 [compile->default(compile)]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.iq80.leveldb#leveldb;0.7 [compile->runtime]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.iq80.leveldb#leveldb;0.7 [compile->compile]
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [compile->master(compile)]
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [compile->compile(*)]
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [compile->master(compile)]
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [compile->compile(*)]
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [runtime->runtime(*)]
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [runtime->compile]
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [runtime->runtime(*)]
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [runtime->compile]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.iq80.leveldb#leveldb;0.7 [compile->master]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.fusesource.leveldbjni#leveldbjni-all;1.8 [compile->default(compile)]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.fusesource.leveldbjni#leveldbjni-all;1.8 [compile->runtime]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.fusesource.leveldbjni#leveldbjni-all;1.8 [compile->compile]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.fusesource.leveldbjni#leveldbjni-all;1.8 [compile->master]
+== resolving dependencies for akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1 [optional]
+resolving dependencies for configuration 'test-internal'
+== resolving dependencies for akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1 [test-internal]
+== resolving dependencies for akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1 [test]
+== resolving dependencies for akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1 [runtime]
+== resolving dependencies for akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1 [compile]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.scala-lang#scala-library;2.11.7 [compile->runtime]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.scala-lang#scala-library;2.11.7 [compile->compile]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.scala-lang#scala-library;2.11.7 [compile->master]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-cluster_2.11;2.4.0 [compile->default(compile)]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-cluster_2.11;2.4.0 [compile->runtime]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-cluster_2.11;2.4.0 [compile->compile]
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->com.typesafe.akka#akka-remote_2.11;2.4.0 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->com.typesafe.akka#akka-remote_2.11;2.4.0 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->com.typesafe#config;1.3.0 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->com.typesafe#config;1.3.0 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-protobuf_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-protobuf_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->io.netty#netty;3.10.3.Final [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->io.netty#netty;3.10.3.Final [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile(*)]
+excluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
+excluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->com.typesafe.akka#akka-remote_2.11;2.4.0 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-cluster_2.11;2.4.0->com.typesafe.akka#akka-remote_2.11;2.4.0 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->com.typesafe#config;1.3.0 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-actor_2.11;2.4.0->com.typesafe#config;1.3.0 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-protobuf_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-protobuf_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->io.netty#netty;3.10.3.Final [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->io.netty#netty;3.10.3.Final [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-remote_2.11;2.4.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->compile]
+excluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime
+excluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-cluster_2.11;2.4.0 [compile->master]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-cluster-tools_2.11;2.4.0 [compile->default(compile)]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-cluster-tools_2.11;2.4.0 [compile->runtime]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-cluster-tools_2.11;2.4.0 [compile->compile]
+== resolving dependencies com.typesafe.akka#akka-cluster-tools_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-cluster-tools_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-cluster-tools_2.11;2.4.0->com.typesafe.akka#akka-cluster_2.11;2.4.0 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-cluster-tools_2.11;2.4.0->com.typesafe.akka#akka-cluster_2.11;2.4.0 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-cluster-tools_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-cluster-tools_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-cluster-tools_2.11;2.4.0->com.typesafe.akka#akka-cluster_2.11;2.4.0 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-cluster-tools_2.11;2.4.0->com.typesafe.akka#akka-cluster_2.11;2.4.0 [runtime->compile]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-cluster-tools_2.11;2.4.0 [compile->master]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-persistence_2.11;2.4.0 [compile->default(compile)]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-persistence_2.11;2.4.0 [compile->runtime]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-persistence_2.11;2.4.0 [compile->compile]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-persistence_2.11;2.4.0->com.typesafe.akka#akka-protobuf_2.11;2.4.0 [runtime->compile]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-persistence_2.11;2.4.0 [compile->master]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.iq80.leveldb#leveldb;0.7 [compile->default(compile)]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.iq80.leveldb#leveldb;0.7 [compile->runtime]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.iq80.leveldb#leveldb;0.7 [compile->compile]
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [compile->master(compile)]
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [compile->compile(*)]
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [compile->master(compile)]
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [compile->compile(*)]
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [runtime->runtime(*)]
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->org.iq80.leveldb#leveldb-api;0.7 [runtime->compile]
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [runtime->runtime(*)]
+== resolving dependencies org.iq80.leveldb#leveldb;0.7->com.google.guava#guava;16.0.1 [runtime->compile]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.iq80.leveldb#leveldb;0.7 [compile->master]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.fusesource.leveldbjni#leveldbjni-all;1.8 [compile->default(compile)]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.fusesource.leveldbjni#leveldbjni-all;1.8 [compile->runtime]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.fusesource.leveldbjni#leveldbjni-all;1.8 [compile->compile]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.fusesource.leveldbjni#leveldbjni-all;1.8 [compile->master]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-testkit_2.11;2.4.0 [test->default(compile)]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-testkit_2.11;2.4.0 [test->runtime]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-testkit_2.11;2.4.0 [test->compile]
+== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->master(compile)]
+== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->compile(*)]
+== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.akka#akka-testkit_2.11;2.4.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [runtime->compile]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->com.typesafe.akka#akka-testkit_2.11;2.4.0 [test->master]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.scalatest#scalatest_2.11;2.2.4 [test->default(compile)]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.scalatest#scalatest_2.11;2.2.4 [test->runtime]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.scalatest#scalatest_2.11;2.2.4 [test->compile]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->master(compile)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->compile(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->master(compile)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->compile(*)]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master(compile)]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->compile(*)]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master(compile)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile(*)]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->master(compile)]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [compile->compile(*)]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [runtime->runtime(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [runtime->compile]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->runtime(*)]
+== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang.modules#scala-xml_2.11;1.0.2 [runtime->compile]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.1 [runtime->runtime(*)]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.2->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.scalatest#scalatest_2.11;2.2.4 [test->master]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->commons-io#commons-io;2.4 [test->default(compile)]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->commons-io#commons-io;2.4 [test->runtime]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->commons-io#commons-io;2.4 [test->compile]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->commons-io#commons-io;2.4 [test->master]
+== resolving dependencies for akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1 [optional]
+== resolving dependencies for akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1 [provided]
+resolving dependencies for configuration 'plugin'
+== resolving dependencies for akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1 [plugin]
+resolving dependencies for configuration 'sources'
+== resolving dependencies for akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1 [sources]
+resolving dependencies for configuration 'docs'
+== resolving dependencies for akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1 [docs]
+resolving dependencies for configuration 'pom'
+== resolving dependencies for akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1 [pom]
+resolving dependencies for configuration 'scala-tool'
+== resolving dependencies for akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1 [scala-tool]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.scala-lang#scala-compiler;2.11.7 [scala-tool->default]
+Read from stdout: Resolving org.scala-lang#scala-compiler;2.11.7 ...
+Resolving org.scala-lang#scala-compiler;2.11.7 ...
+sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.7 {scala-tool=[default, optional(default)]}
+sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.7
+	found org.scala-lang#scala-compiler;2.11.7 in sbt-chain
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.scala-lang#scala-compiler;2.11.7 [scala-tool->runtime]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.scala-lang#scala-compiler;2.11.7 [scala-tool->compile]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->default]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->runtime]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->optional(default)]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->master(compile)]
+Read from stdout: Resolving org.scala-lang#scala-reflect;2.11.7 ...
+Resolving org.scala-lang#scala-reflect;2.11.7 ...
+sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.7
+	found org.scala-lang#scala-reflect;2.11.7 in sbt-chain
+	[2.11.7] org.scala-lang#scala-reflect;2.11.7
+== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->compile(*)]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->runtime(*)]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [compile->compile]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->master(compile)]
+Read from stdout: Resolving org.scala-lang.modules#scala-xml_2.11;1.0.4 ...
+Resolving org.scala-lang.modules#scala-xml_2.11;1.0.4 ...
+sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.4
+	found org.scala-lang.modules#scala-xml_2.11;1.0.4 in sbt-chain
+== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile(*)]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->master(compile)]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->compile(*)]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->runtime(*)]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(compile)]
+Read from stdout: Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...
+Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...
+sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4
+	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain
+== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)]
+== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
+== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)]
+== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime(*)]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile]
+== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->compile]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [runtime->compile]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->runtime(*)]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->compile]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.scala-lang#scala-compiler;2.11.7 [scala-tool->master]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.scala-lang#scala-compiler;2.11.7 [scala-tool->optional(default)]
+== resolving dependencies org.scala-lang#scala-compiler;2.11.7->jline#jline;2.12.1 [optional->master(compile)]
+Read from stdout: Resolving jline#jline;2.12.1 ...
+Resolving jline#jline;2.12.1 ...
+sbt-chain: Checking cache for: dependency: jline#jline;2.12.1 {optional=[compile(*), master(compile)]}
+sbt-chain: module revision found in cache: jline#jline;2.12.1
+	found jline#jline;2.12.1 in sbt-chain
+== resolving dependencies org.scala-lang#scala-compiler;2.11.7->jline#jline;2.12.1 [optional->compile(*)]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.scala-lang#scala-library;2.11.7 [scala-tool->default]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.scala-lang#scala-library;2.11.7 [scala-tool->runtime]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.scala-lang#scala-library;2.11.7 [scala-tool->compile]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.scala-lang#scala-library;2.11.7 [scala-tool->master]
+== resolving dependencies akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1->org.scala-lang#scala-library;2.11.7 [scala-tool->optional(default)]
+	resolved ivy file produced in cache
+:: downloading artifacts ::
+	[NOT REQUIRED] org.scala-lang#scala-library;2.11.7!scala-library.jar
+	[NOT REQUIRED] com.typesafe.akka#akka-cluster_2.11;2.4.0!akka-cluster_2.11.jar
+	[NOT REQUIRED] com.typesafe.akka#akka-cluster-tools_2.11;2.4.0!akka-cluster-tools_2.11.jar
+	[NOT REQUIRED] com.typesafe.akka#akka-persistence_2.11;2.4.0!akka-persistence_2.11.jar
+	[NOT REQUIRED] org.iq80.leveldb#leveldb;0.7!leveldb.jar
+	[NOT REQUIRED] org.fusesource.leveldbjni#leveldbjni-all;1.8!leveldbjni-all.jar(bundle)
+	[NOT REQUIRED] com.typesafe.akka#akka-remote_2.11;2.4.0!akka-remote_2.11.jar
+	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.4.0!akka-actor_2.11.jar
+	[NOT REQUIRED] com.typesafe.akka#akka-protobuf_2.11;2.4.0!akka-protobuf_2.11.jar
+	[NOT REQUIRED] io.netty#netty;3.10.3.Final!netty.jar(bundle)
+	[NOT REQUIRED] org.uncommons.maths#uncommons-maths;1.2.2a!uncommons-maths.jar
+	[NOT REQUIRED] com.typesafe#config;1.3.0!config.jar(bundle)
+	[NOT REQUIRED] org.iq80.leveldb#leveldb-api;0.7!leveldb-api.jar
+	[NOT REQUIRED] com.google.guava#guava;16.0.1!guava.jar(bundle)
+	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.11;2.4.0!akka-testkit_2.11.jar
+	[NOT REQUIRED] org.scalatest#scalatest_2.11;2.2.4!scalatest_2.11.jar(bundle)
+	[NOT REQUIRED] commons-io#commons-io;2.4!commons-io.jar
+	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.2!scala-reflect.jar
+	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar(bundle)
+	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar
+	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar
+	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)
+	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle)
+	[NOT REQUIRED] jline#jline;2.12.1!jline.jar
+:: resolution report :: resolve 1828ms :: artifacts dl 64ms
+	report for akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1 compile produced in /Users/leo/apps/play/distributed-iot-poc/target/resolution-cache/reports/akka-distributed-iot-poc-akka-distributed-iot-poc_2.11-compile.xml
+	report for akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1 runtime produced in /Users/leo/apps/play/distributed-iot-poc/target/resolution-cache/reports/akka-distributed-iot-poc-akka-distributed-iot-poc_2.11-runtime.xml
+	report for akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1 test produced in /Users/leo/apps/play/distributed-iot-poc/target/resolution-cache/reports/akka-distributed-iot-poc-akka-distributed-iot-poc_2.11-test.xml
+	report for akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1 provided produced in /Users/leo/apps/play/distributed-iot-poc/target/resolution-cache/reports/akka-distributed-iot-poc-akka-distributed-iot-poc_2.11-provided.xml
+	report for akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1 optional produced in /Users/leo/apps/play/distributed-iot-poc/target/resolution-cache/reports/akka-distributed-iot-poc-akka-distributed-iot-poc_2.11-optional.xml
+	report for akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1 compile-internal produced in /Users/leo/apps/play/distributed-iot-poc/target/resolution-cache/reports/akka-distributed-iot-poc-akka-distributed-iot-poc_2.11-compile-internal.xml
+	report for akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1 runtime-internal produced in /Users/leo/apps/play/distributed-iot-poc/target/resolution-cache/reports/akka-distributed-iot-poc-akka-distributed-iot-poc_2.11-runtime-internal.xml
+	report for akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1 test-internal produced in /Users/leo/apps/play/distributed-iot-poc/target/resolution-cache/reports/akka-distributed-iot-poc-akka-distributed-iot-poc_2.11-test-internal.xml
+	report for akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1 plugin produced in /Users/leo/apps/play/distributed-iot-poc/target/resolution-cache/reports/akka-distributed-iot-poc-akka-distributed-iot-poc_2.11-plugin.xml
+	report for akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1 sources produced in /Users/leo/apps/play/distributed-iot-poc/target/resolution-cache/reports/akka-distributed-iot-poc-akka-distributed-iot-poc_2.11-sources.xml
+	report for akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1 docs produced in /Users/leo/apps/play/distributed-iot-poc/target/resolution-cache/reports/akka-distributed-iot-poc-akka-distributed-iot-poc_2.11-docs.xml
+	report for akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1 pom produced in /Users/leo/apps/play/distributed-iot-poc/target/resolution-cache/reports/akka-distributed-iot-poc-akka-distributed-iot-poc_2.11-pom.xml
+	report for akka-distributed-iot-poc#akka-distributed-iot-poc_2.11;0.1 scala-tool produced in /Users/leo/apps/play/distributed-iot-poc/target/resolution-cache/reports/akka-distributed-iot-poc-akka-distributed-iot-poc_2.11-scala-tool.xml
+	resolve done (1828ms resolve - 64ms download)
+Read from stdout: Done updating.
+Done updating.
+
+Initial source changes: 
+	removed:Set()
+	added: Set(/Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Frontend.scala, /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Main.scala, /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/WorkState.scala, /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Master.scala, /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/WorkResultConsumer.scala, /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Worker.scala, /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/WorkProducer.scala, /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Device.scala, /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/MasterWorkerProtocol.scala, /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Work.scala, /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/WorkExecutor.scala)
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Frontend.scala, /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Main.scala, /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/WorkState.scala, /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Master.scala, /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/WorkResultConsumer.scala, /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Worker.scala, /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/WorkProducer.scala, /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Device.scala, /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/MasterWorkerProtocol.scala, /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Work.scala, /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/WorkExecutor.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Frontend.scala, /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Main.scala, /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/WorkState.scala, /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Master.scala, /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/WorkResultConsumer.scala, /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Worker.scala, /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/WorkProducer.scala, /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Device.scala, /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/MasterWorkerProtocol.scala, /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Work.scala, /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/WorkExecutor.scala)
+
+Recompiling all 11 sources: invalidated sources (11) exceeded 50.0% of all sources
+Read from stdout: Compiling 11 Scala sources to /Users/leo/apps/play/distributed-iot-poc/target/scala-2.11/classes...
+Compiling 11 Scala sources to /Users/leo/apps/play/distributed-iot-poc/target/scala-2.11/classes...
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.7
+Other repositories:
+Default repositories:
+Running cached compiler 1eb42a69, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+Calling Scala compiler with arguments  (CompilerInterface):
+	-bootclasspath
+	/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/classes:/Users/leo/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+	-classpath
+	/Users/leo/apps/play/distributed-iot-poc/target/scala-2.11/classes:/Users/leo/.ivy2/cache/com.typesafe.akka/akka-cluster_2.11/jars/akka-cluster_2.11-2.4.0.jar:/Users/leo/.ivy2/cache/com.typesafe.akka/akka-remote_2.11/jars/akka-remote_2.11-2.4.0.jar:/Users/leo/apps/activator/repository/com.typesafe.akka/akka-actor_2.11/2.4.0/jars/akka-actor_2.11.jar:/Users/leo/apps/activator/repository/com.typesafe/config/1.3.0/bundles/config.jar:/Users/leo/.ivy2/cache/com.typesafe.akka/akka-protobuf_2.11/jars/akka-protobuf_2.11-2.4.0.jar:/Users/leo/.ivy2/cache/io.netty/netty/bundles/netty-3.10.3.Final.jar:/Users/leo/apps/activator/repository/org.uncommons.maths/uncommons-maths/1.2.2a/jars/uncommons-maths.jar:/Users/leo/.ivy2/cache/com.typesafe.akka/akka-cluster-tools_2.11/jars/akka-cluster-tools_2.11-2.4.0.jar:/Users/leo/.ivy2/cache/com.typesafe.akka/akka-persistence_2.11/jars/akka-persistence_2.11-2.4.0.jar:/Users/leo/.ivy2/cache/org.iq80.leveldb/leveldb/jars/leveldb-0.7.jar:/Users/leo/.ivy2/cache/org.iq80.leveldb/leveldb-api/jars/leveldb-api-0.7.jar:/Users/leo/.ivy2/cache/com.google.guava/guava/bundles/guava-16.0.1.jar:/Users/leo/.ivy2/cache/org.fusesource.leveldbjni/leveldbjni-all/bundles/leveldbjni-all-1.8.jar
+Scala compilation took 10.607201668 s
+Invalidating /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/WorkState.scala...
+Invalidating (transitively) by inheritance from /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/WorkState.scala...
+Initial set of included nodes: Set(/Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/WorkState.scala)
+Invalidated by transitive inheritance dependency: Set(/Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/WorkState.scala)
+The /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/WorkState.scala source file has the following regular definitions changed:
+	notify, unapply, curried, workInProgress, doneWorkIds$1, wait, copy$default$2, $asInstanceOf, empty, compose, productArity, equals, WorkDomainEvent, asInstanceOf, nextWork, result, WorkCompleted, synchronized, $isInstanceOf, andThen, hasWork, tupled, isAccepted, canEqual, copy$default$4, WorkerTimedOut, productPrefix, pendingWork, work, notifyAll, readResolve, doneWorkIds, acceptedWorkIds$1, isInstanceOf, acceptedWorkIds, <init>, updated, apply, workInProgress$1, isDone, ==, clone, isInProgress, WorkStarted, copy$default$3, copy, toString, !=, getClass, copy$default$1, WorkAccepted, pendingWork$1, WorkState, ne, workId, eq, productIterator, ##, finalize, productElement, hashCode, WorkerFailed.
+All member reference dependencies will be considered within this context.
+The following modified names cause invalidation of /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Master.scala: Set(empty, asInstanceOf, nextWork, result, hasWork, isAccepted, work, isInstanceOf, <init>, updated, apply, isDone, ==, isInProgress, toString, getClass, WorkState, ne, workId, eq)
+Invalidating /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Work.scala...
+Invalidating (transitively) by inheritance from /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Work.scala...
+Initial set of included nodes: Set(/Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Work.scala)
+Invalidated by transitive inheritance dependency: Set(/Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Work.scala)
+The /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Work.scala source file has the following regular definitions changed:
+	notify, wait, copy$default$2, $asInstanceOf, productArity, equals, WorkResult, asInstanceOf, result, synchronized, $isInstanceOf, job, canEqual, productPrefix, notifyAll, isInstanceOf, Work, <init>, ==, clone, copy$default$3, copy, toString, !=, getClass, copy$default$1, ne, workId, eq, productIterator, device, ##, finalize, productElement, hashCode.
+All member reference dependencies will be considered within this context.
+The following modified names cause invalidation of /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Frontend.scala: Set(asInstanceOf, isInstanceOf, <init>, toString)
+The following modified names cause invalidation of /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/WorkState.scala: Set(asInstanceOf, result, isInstanceOf, Work, <init>, ==, toString, ne, workId, eq)
+The following modified names cause invalidation of /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Master.scala: Set(asInstanceOf, result, isInstanceOf, <init>, ==, toString, getClass, ne, workId, eq, device)
+The following modified names cause invalidation of /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/WorkResultConsumer.scala: Set(asInstanceOf, result, isInstanceOf, <init>, workId)
+The following modified names cause invalidation of /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Worker.scala: Set(asInstanceOf, result, job, isInstanceOf, <init>, ==, toString, workId, eq, device)
+The following modified names cause invalidation of /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/WorkProducer.scala: Set(asInstanceOf, Work, <init>, ==, toString, workId, device)
+Invalidating /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Frontend.scala...
+Invalidating (transitively) by inheritance from /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Frontend.scala...
+Initial set of included nodes: Set(/Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Frontend.scala)
+Invalidated by transitive inheritance dependency: Set(/Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Frontend.scala)
+The /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Frontend.scala source file has the following implicit definitions changed:
+	self, context.
+All member reference dependencies will be considered within this context.
+The following member ref dependencies of /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Frontend.scala are invalidated:
+	/Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Main.scala
+	/Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/WorkProducer.scala
+Invalidating /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/MasterWorkerProtocol.scala...
+Invalidating (transitively) by inheritance from /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/MasterWorkerProtocol.scala...
+Initial set of included nodes: Set(/Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/MasterWorkerProtocol.scala)
+Invalidated by transitive inheritance dependency: Set(/Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/MasterWorkerProtocol.scala)
+The /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/MasterWorkerProtocol.scala source file has the following regular definitions changed:
+	notify, unapply, curried, WorkerRequestsWork, wait, copy$default$2, $asInstanceOf, compose, productArity, equals, WorkIsDone, Ack, asInstanceOf, result, synchronized, $isInstanceOf, andThen, tupled, canEqual, productPrefix, notifyAll, readResolve, isInstanceOf, <init>, id, apply, RegisterWorker, ==, clone, copy$default$3, copy, workerId, toString, !=, WorkIsReady, getClass, copy$default$1, MasterWorkerProtocol, ne, WorkFailed, workId, eq, productIterator, ##, finalize, productElement, hashCode.
+All member reference dependencies will be considered within this context.
+The following modified names cause invalidation of /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Master.scala: Set(Ack, asInstanceOf, result, isInstanceOf, <init>, apply, ==, workerId, toString, WorkIsReady, getClass, MasterWorkerProtocol, ne, workId, eq)
+The following modified names cause invalidation of /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Worker.scala: Set(asInstanceOf, result, isInstanceOf, <init>, id, apply, ==, workerId, toString, WorkIsReady, MasterWorkerProtocol, workId, eq)
+Invalidating /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Master.scala...
+Invalidating (transitively) by inheritance from /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Master.scala...
+Initial set of included nodes: Set(/Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Master.scala)
+Invalidated by transitive inheritance dependency: Set(/Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Master.scala)
+The /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Master.scala source file has the following implicit definitions changed:
+	self, context.
+All member reference dependencies will be considered within this context.
+The following member ref dependencies of /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Master.scala are invalidated:
+	/Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Frontend.scala
+	/Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Main.scala
+	/Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/WorkResultConsumer.scala
+Invalidating /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Device.scala...
+Invalidating (transitively) by inheritance from /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Device.scala...
+Initial set of included nodes: Set(/Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Device.scala)
+Including /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/WorkProducer.scala by /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Device.scala
+Invalidated by transitive inheritance dependency: Set(/Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/WorkProducer.scala, /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Device.scala)
+The /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Device.scala source file has the following regular definitions changed:
+	notify, wait, $asInstanceOf, Thermostat, state, equals, asInstanceOf, Device, synchronized, $isInstanceOf, notifyAll, isInstanceOf, getState, <init>, id, ==, Lamp, clone, toString, !=, getClass, ne, getId, eq, states, ##, finalize, hashCode.
+All member reference dependencies will be considered within this context.
+The following modified names cause invalidation of /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Master.scala: Set(asInstanceOf, isInstanceOf, <init>, ==, toString, getClass, ne, getId, eq)
+The following modified names cause invalidation of /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Worker.scala: Set(asInstanceOf, isInstanceOf, getState, <init>, id, ==, toString, getId, eq)
+The following modified names cause invalidation of /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/WorkProducer.scala: Set(Thermostat, asInstanceOf, Device, getState, <init>, ==, Lamp, toString, getId)
+The following modified names cause invalidation of /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Work.scala: Set(asInstanceOf, Device, isInstanceOf, <init>, ==, toString, eq)
+The following modified names cause invalidation of /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/WorkExecutor.scala: Set(state, asInstanceOf, Device, isInstanceOf, <init>, ==, states)
+Invalidating /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Main.scala...
+Invalidating (transitively) by inheritance from /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Main.scala...
+Initial set of included nodes: Set(/Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Main.scala)
+Invalidated by transitive inheritance dependency: Set(/Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Main.scala)
+The /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Main.scala source file has the following regular definitions changed:
+	notify, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, startWorker, main, workTimeout, notifyAll, isInstanceOf, startupSharedJournal, ==, clone, Main, toString, startBackend, !=, getClass, ne, eq, startFrontend, ##, finalize, hashCode.
+All member reference dependencies will be considered within this context.
+Invalidating /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/WorkProducer.scala...
+Invalidating (transitively) by inheritance from /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/WorkProducer.scala...
+Initial set of included nodes: Set(/Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/WorkProducer.scala)
+Invalidated by transitive inheritance dependency: Set(/Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/WorkProducer.scala)
+The /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/WorkProducer.scala source file has the following implicit definitions changed:
+	self, context.
+All member reference dependencies will be considered within this context.
+Invalidating /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/WorkExecutor.scala...
+Invalidating (transitively) by inheritance from /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/WorkExecutor.scala...
+Initial set of included nodes: Set(/Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/WorkExecutor.scala)
+Invalidated by transitive inheritance dependency: Set(/Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/WorkExecutor.scala)
+The /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/WorkExecutor.scala source file has the following implicit definitions changed:
+	self, context.
+All member reference dependencies will be considered within this context.
+The following member ref dependencies of /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/WorkExecutor.scala are invalidated:
+	/Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Main.scala
+Invalidating /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/WorkResultConsumer.scala...
+Invalidating (transitively) by inheritance from /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/WorkResultConsumer.scala...
+Initial set of included nodes: Set(/Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/WorkResultConsumer.scala)
+Invalidated by transitive inheritance dependency: Set(/Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/WorkResultConsumer.scala)
+The /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/WorkResultConsumer.scala source file has the following implicit definitions changed:
+	self, context.
+All member reference dependencies will be considered within this context.
+The following member ref dependencies of /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/WorkResultConsumer.scala are invalidated:
+	/Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Main.scala
+Invalidating /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Worker.scala...
+Invalidating (transitively) by inheritance from /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Worker.scala...
+Initial set of included nodes: Set(/Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Worker.scala)
+Invalidated by transitive inheritance dependency: Set(/Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Worker.scala)
+The /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Worker.scala source file has the following implicit definitions changed:
+	self, context.
+All member reference dependencies will be considered within this context.
+The following member ref dependencies of /Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Worker.scala are invalidated:
+	/Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/Main.scala
+	/Users/leo/apps/play/distributed-iot-poc/src/main/scala/worker/WorkExecutor.scala
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 14 s, completed Apr 19, 2016 2:35:50 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/Users/leo/apps/play/distributed-iot-poc/}distributed-iot-poc/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@f2c1aa8, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed Apr 19, 2016 2:35:51 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/Users/leo/apps/play/distributed-iot-poc/}distributed-iot-poc/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@3ef2297c, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed Apr 19, 2016 2:35:51 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/Users/leo/apps/play/distributed-iot-poc/}distributed-iot-poc/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@e58a2da, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 0 s, completed Apr 19, 2016 2:35:51 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> backgroundRunMain worker.Main
+Evaluating tasks: compile:backgroundRunMain
+Running task... Cancel: sbt.server.ServerTaskCancellation@2e8250d5, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(/Users/leo/apps/play/distributed-iot-poc/src/main/resources/application.conf,/Users/leo/apps/play/distributed-iot-poc/target/scala-2.11/classes/application.conf)
+	(/Users/leo/apps/play/distributed-iot-poc/src/main/resources/worker.conf,/Users/leo/apps/play/distributed-iot-poc/target/scala-2.11/classes/worker.conf)
+Total time: 0 s, completed Apr 19, 2016 2:36:31 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 1
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@9655fdf, check cycles: false
+Total time: 0 s, completed Apr 19, 2016 2:37:36 PM
+> server-post-command-cleanup
+Exception in thread "sbt-bg-threads-1" java.lang.IllegalThreadStateException: process hasn't exited
+	at java.lang.UNIXProcess.exitValue(UNIXProcess.java:424)
+	at sbt.SimpleProcess.exitValue(ProcessImpl.scala:382)
+	at sbt.ForkRun.run(Run.scala:32)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:38)
+	at sbt.plugins.BackgroundRun$$$$b4c18989468ecd5aa4b4422d7494c6$$$$onfun$apply$6.apply(BackgroundRunPlugin.scala:37)
+	at sbt.BackgroundThreadPool$$anonfun$1.apply$mcV$sp(AbstractBackgroundJobService.scala:134)
+	at sbt.BackgroundThreadPool$BackgroundRunnable.run(AbstractBackgroundJobService.scala:68)
+> server-handle-next-server-request
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)

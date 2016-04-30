@@ -1,0 +1,19 @@
+New log file opened at Wed Apr 20 17:42:49 PDT 2016 by 1344@Leos-MacBook-Pro.local
+Taking next connection to: 50284
+New client attempting to connect on port: 50285-50284
+  Address = /127.0.0.1:50284
+This client on port 50285 has uuid 87bcded8-4f9c-4b08-a5c8-471f7fa16090 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-87bcded8-4f9c-4b08-a5c8-471f7fa16090
+Taking next connection to: 50284
+New client attempting to connect on port: 50286-50284
+  Address = /127.0.0.1:50284
+Handshake exception on socket: 50286
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
