@@ -11,7 +11,7 @@ This is a Scala-based application to primarily illustrate how to build a scalabl
 3. Click 'compile', then 'run' from within the Activator's UI
 4. Observe console output displayed on the web browser
 
-##### To run the application within a separate JVMs, please proceed as follows:
+##### To run the application on separate JVMs, please proceed as follows:
 
 First, git-clone the repo to a local disk.  Next, open up separate command line terminals and launch the different components on separate JVMs:
 
