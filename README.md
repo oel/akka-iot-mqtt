@@ -2,7 +2,7 @@
 
 ---
 
-This is a Scala-based application to primarily illustrate how to build a scalable distributed worker system using Akka actors to service requests from a MQTT-based IoT (Internet of Things) system.  A good portion of the Akka clustering setup is re-purposed from Lightbend's Akka distributed workers template (http://www.lightbend.com/activator/template/akka-distributed-workers).
+This is a Scala-based application to primarily illustrate how to build a scalable distributed worker system using Akka actors to service requests from a MQTT-based IoT (Internet of Things) system.  A good portion of the Akka clustering setup is derived from Lightbend's [Akka distributed workers template](http://www.lightbend.com/activator/template/akka-distributed-workers).  For a quick walk-through of the application, please visit [Genuine Blog](http://blog.genuine.com/2016/04/internet-of-things-and-akka-actors/).
 
 ##### To run the application within a single JVM on a web browser, simply proceed as follows:
 
@@ -28,5 +28,6 @@ First, git-clone the repo to a local disk.  Next, open up separate command line 
 >> $ {project-root}/bin/activator "runMain worker.Main 0"
 
 Additional IotAgent-DeviceRequest nodes (port# 3xxx) and/or Worker nodes (port# 0) can be launched/shut down, if wanted.
+
 
 ---
