@@ -9,6 +9,7 @@ fork in Test := true
 
 libraryDependencies ++= Seq(
   "org.eclipse.paho"  % "org.eclipse.paho.client.mqttv3"  % "1.0.2",
+  "com.sandinh"  % "paho-akka_2.11"  % "1.2.0",
   "org.slf4j" % "slf4j-api" % "1.7.21",
   "ch.qos.logback"    % "logback-classic" % "1.1.3",
   "com.typesafe.akka" %% "akka-cluster" % akkaVersion,
