@@ -1,8 +1,7 @@
 package worker
 
 import java.util.UUID
-import scala.util.Random
-import scala.concurrent.forkjoin.ThreadLocalRandom
+import java.util.concurrent.ThreadLocalRandom
 import scala.concurrent.duration._
 import akka.actor.Actor
 import akka.actor.ActorLogging
@@ -20,7 +19,7 @@ class DeviceRequest(mqttPubSub: ActorRef) extends Actor with ActorLogging {
   import context.dispatcher
 
   def scheduler = context.system.scheduler
-  def rnd = ThreadLocalRandom.current
+  def random = ThreadLocalRandom.current
   def nextWorkId(): String = UUID.randomUUID().toString
 
   override def preStart(): Unit = scheduler.scheduleOnce(5.seconds, self, Tick)
@@ -32,7 +31,7 @@ class DeviceRequest(mqttPubSub: ActorRef) extends Actor with ActorLogging {
     case Tick => {
       // Random pick from a list of serializable devices
       val deviceList: List[Device] = List(new Thermostat, new Lamp, new SecurityAlarm)
-      val device = deviceList(Random.nextInt(deviceList.size))
+      val device = deviceList(random.nextInt(0, deviceList.size))
       val work = Work(nextWorkId(), device, "Adjust device")
       log.info("Device Request -> Device Id {} | Device State {}", device.getId, device.getState)
 
@@ -49,7 +48,7 @@ class DeviceRequest(mqttPubSub: ActorRef) extends Actor with ActorLogging {
   def waitAccepted(work: Work, payload: Array[Byte]): Actor.Receive = {
     case IotAgent.Ok =>
       context.unbecome()
-      scheduler.scheduleOnce(rnd.nextInt(3, 10).seconds, self, Tick)
+      scheduler.scheduleOnce(random.nextInt(3, 10).seconds, self, Tick)
     case IotAgent.NotOk =>
       log.info("Device Request -> ALERT: Work Id {} from Device Id {} NOT ACCEPTED, retrying ... ", work.workId, work.device.getId)
       scheduler.scheduleOnce(3.seconds, mqttPubSub, new Publish(MqttConfig.topic, payload))
