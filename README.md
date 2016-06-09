@@ -26,8 +26,8 @@ First, git-clone the repo to a local disk.  Next, open up separate command line 
 >
 > Launch the Worker node:
 >> $ {project-root}/bin/activator "runMain worker.Main 0"
-
-Additional IotAgent-DeviceRequest nodes (port# 3xxx) and/or Worker nodes (port# 0) can be launched/shut down, if wanted.
-
+>
+> Launch additional Worker node:
+>> $ {project-root}/bin/activator "runMain worker.Main 0"
 
 ---
