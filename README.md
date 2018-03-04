@@ -9,7 +9,7 @@ UPDATE: An expanded version of this application with individual actors represent
 ##### To run the application within a single JVM on a web browser, simply proceed as follows:
 
 1. Git-clone the repo to a local disk
-2. Run './activator ui' from within the project root (Activator's UI will be fired off in a web browser)
+2. Run 'bin/activator ui' from within the project root (Activator's UI will be fired off in a web browser)
 3. Click 'compile', then 'run' from within the Activator's UI
 4. Observe console output displayed on the web browser
 
