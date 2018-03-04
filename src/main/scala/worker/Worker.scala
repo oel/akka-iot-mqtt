@@ -89,8 +89,8 @@ class Worker(clusterClient: ActorRef, workProcessorProps: Props, registerInterva
 
   override def unhandled(message: Any): Unit = message match {
     case Terminated(`workProcessor`) => context.stop(self)
-    case WorkIsReady                =>
-    case _                          => super.unhandled(message)
+    case WorkIsReady                 =>
+    case _                           => super.unhandled(message)
   }
 
   def sendToMaster(msg: Any): Unit = {

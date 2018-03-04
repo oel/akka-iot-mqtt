@@ -34,7 +34,7 @@ class WorkProcessor extends Actor {
       val state = states(random.nextInt(0, states.size))
       val opposite = if (device.getState == "ON") "OFF" else "ON"
       if (state == 0) "NO CHANGE" else
-        "Switch light to " + opposite
+        "Switch alarm to " + opposite
     }
     case _ => "NO CHANGE"
   }
